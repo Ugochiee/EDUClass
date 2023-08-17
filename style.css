@@ -1,0 +1,150 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins' sans-serif;
+}
+
+.section1 {
+    padding: 10px 0px 10px 50px;
+    /* top right bottom left */
+    background-color: rgb(235, 242, 255);
+    min-height: 700px;
+}
+
+.container {
+    margin: 10px 30px 10px 30px;
+}
+
+nav {
+    display: flex;
+    gap: 3em;
+    justify-content: space-between;
+    align-items: center;
+    height: 12vh;
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav img {
+    background-color: rgb(255, 183, 0);
+    border-radius: 50%;
+    padding: 5px;
+}
+
+nav div {
+    display: flex;
+    align-items: center;
+}
+
+.kinky {
+    /* margin-left: 100px; */
+    gap: 0.5em;
+}
+
+nav ul {
+    display: flex;
+    gap: 1em;
+    align-items: center;
+    list-style: none;
+    font-size: medium;
+}
+
+nav ul li a {
+    text-decoration: none;
+    list-style: none;
+}
+
+ul li a {
+    list-style: none;
+    font-family: inter, sans-serif;
+}
+
+nav button {
+    background-color: rgb(35, 116, 238);
+    border-radius: 50px;
+    width: 130px;
+    height: 30px;
+    border: none;
+    float: right;
+}
+
+button h5 {
+    color: white;
+}
+
+.modern {
+    margin-top: 40px;
+}
+
+.education {
+    margin: 30px 0px 30px 0px;
+    /* top right bottom left */
+    color: #063852;
+    font-family: 'poppins';
+    font-weight: 700;
+}
+
+.education span {
+    color: #2374ee;
+    font-weight: 700;
+    letter-spacing: -0.64px;
+}
+
+.showcase {
+    margin: 30px 0px 30px 0px;
+}
+
+.trial-btn {
+    background-color: rgb(35, 116, 238);
+    border-radius: 50px;
+    /* width: 80px; */
+    /* height: 30px; */
+    border: none;
+    /* display: flex; */
+    box-shadow: 1px 4px 1px 1px rgb(183, 222, 245);
+}
+
+.trial-btn span {
+    color: white;
+    padding: 15px 20px 15px 20px;
+    /* top right bottom left  */
+    font-family: Poppins;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+.play {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 4px;
+}
+
+.play>p {
+    margin-top: 1px;
+    margin-left: 5px;
+}
+
+/* 
+.playicon img {
+    margin-top: 8px;
+} */
+
+
+.cta {
+    display: flex;
+}
+
+.solution {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dashboard {
+    /* float: right; */
+    position: absolute;
+    right: 0;
+    margin-top: 30px;
+}
