@@ -165,7 +165,59 @@ button h5 {
     /* min-height: 200px; */
     /* min-width: 500px; */
     background-color: #3e3e3f;
-
 }
 
-.schools {}
+.text-grey {
+    color: #063852;
+}
+
+.text-grey-100 {
+    color: #a9aeb7;
+    font-size: 12px;
+}
+
+.users {
+    margin-left: 100px;
+    margin-bottom: 200px;
+}
+
+.building {
+    margin-left: 200px;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+}
+
+span {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/* reuseable styles */
+
+.d-flex {
+    display: flex;
+}
+
+.mt-1 {
+    margin-top: 10px;
+}
+
+.mt-2 {
+    margin-top: 20px;
+}
+
+.mt-3 {
+    margin-top: 30px;
+}
+
+.mt-4 {
+    margin-top: 40px;
+}
+
+.mt-5 {
+    margin-top: 50px;
+}
