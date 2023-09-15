@@ -196,6 +196,15 @@ button h5 {
 
 /* reuseable styles */
 
+.section3-p-primary {
+    color: #fec01f;
+    font-size: 11px;
+}
+
+.section3-p-discover {
+    color: #73a7f3;
+}
+
 .btn {
     padding: 5px 10px 5px 10px;
     /* tp right bottom left */
@@ -212,12 +221,20 @@ button h5 {
     font-size: 10px;
 }
 
+.text-size-20px {
+    font-size: 20px;
+}
+
 .d-flex {
     display: flex;
 }
 
 .shadow-sm {
     box-shadow: 1px 4px 1px 1px rgb(183, 222, 245);
+}
+
+.text-center {
+    text-align: center;
 }
 
 .p1 {
@@ -264,6 +281,10 @@ button h5 {
     justify-content: space-between;
 }
 
+.justify-content-center {
+    justify-content: center;
+}
+
 .justify-content-around {
     justify-content: space-around;
 }
@@ -289,4 +310,10 @@ button h5 {
     width: 400px;
     height: 300px;
     border-radius: 30px;
+}
+
+
+.imgschedule {
+    width: 400px;
+    height: 300px;
 }
