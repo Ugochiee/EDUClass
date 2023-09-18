@@ -168,8 +168,28 @@ button h5 {
     color: #063852;
 }
 
+.text-grey-medium {
+    color: #063852;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.text-grey-bold {
+    color: #063852;
+    font-size: 40px;
+    font-weight: bold;
+}
+
 .text-grey-100 {
     color: #a9aeb7;
+    font-size: 12px;
+}
+
+.font-1 {
+    font-size: 10px;
+}
+
+.font-12 {
     font-size: 12px;
 }
 
@@ -213,6 +233,8 @@ button h5 {
     color: #73a7f3;
 }
 
+/* button styling */
+
 .btn {
     padding: 5px 10px 5px 10px;
     /* tp right bottom left */
@@ -227,6 +249,13 @@ button h5 {
 
 .btn-text {
     font-size: 10px;
+}
+
+.btn-large {
+    width: 2px;
+    height: 64px;
+    background: #2374EE;
+    border-radius: 36px;
 }
 
 .text-size-20px {
@@ -285,6 +314,18 @@ button h5 {
     margin-top: 50px;
 }
 
+.mt-7 {
+    margin-top: 70px;
+}
+
+.mt-10 {
+    margin-top: 100px;
+}
+
+.mt-20 {
+    margin-top: 200px;
+}
+
 .ml-1 {
     margin-left: 10px;
 }
@@ -313,6 +354,14 @@ button h5 {
     margin-left: 100px;
 }
 
+.ml-20 {
+    margin-left: 200px;
+}
+
+.ml-30 {
+    margin-left: 300px;
+}
+
 .mr-1 {
     margin-right: 10px;
 }
@@ -339,6 +388,33 @@ button h5 {
 
 .mr-10 {
     margin-right: 100px;
+}
+
+.mr-15 {
+    margin-right: 150px;
+}
+
+.mr-20 {
+    margin-right: 200px;
+}
+
+.mr-30 {
+    margin-right: 300px;
+}
+
+.py-1 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.px-1 {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.px-2 {
+    padding-right: 20px;
+    padding-left: 20px;
 }
 
 .justify-content-between {
@@ -405,10 +481,31 @@ button h5 {
 
 .card {
     background-color: white;
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: auto;
     border-radius: 20px;
-    padding: 10px;
+    padding: 20px;
 }
 
-/* reusable ends */
+.section5 {
+    padding-top: 10px;
+}
+
+.pricing {
+    background-color: #f9fafb;
+    /* width: 250px; */
+    height: auto;
+    /* border-radius: 20px; */
+    padding: 20px;
+}
+
+.booklogo {
+    width: 35px;
+    height: 35px;
+}
+
+.extended {
+    background-color: #2374ee;
+    border-radius: 10px;
+    color: white;
+}
