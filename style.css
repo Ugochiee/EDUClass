@@ -196,6 +196,14 @@ button h5 {
 
 /* reuseable styles */
 
+.text-white {
+    color: white;
+}
+
+.empty-1 {
+    border-radius: 50%;
+}
+
 .section3-p-primary {
     color: #fec01f;
     font-size: 11px;
@@ -277,6 +285,62 @@ button h5 {
     margin-top: 50px;
 }
 
+.ml-1 {
+    margin-left: 10px;
+}
+
+.ml-2 {
+    margin-left: 20px;
+}
+
+.ml-3 {
+    margin-left: 30px;
+}
+
+.ml-4 {
+    margin-left: 40px;
+}
+
+.ml-5 {
+    margin-left: 50px;
+}
+
+.ml-8 {
+    margin-left: 80px;
+}
+
+.ml-10 {
+    margin-left: 100px;
+}
+
+.mr-1 {
+    margin-right: 10px;
+}
+
+.mr-2 {
+    margin-right: 20px;
+}
+
+.mr-3 {
+    margin-right: 30px;
+}
+
+.mr-4 {
+    margin-right: 40px;
+}
+
+.mr-5 {
+    margin-right: 50px;
+}
+
+.mr-8 {
+    margin-right: 80px;
+}
+
+.mr-10 {
+    margin-right: 100px;
+}
+
 .justify-content-between {
     justify-content: space-between;
 }
@@ -301,6 +365,13 @@ button h5 {
     flex-basis: 20%;
 }
 
+.div-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
 .container {
     margin: 20px 50px 20px 50px;
 }
@@ -317,3 +388,27 @@ button h5 {
     width: 400px;
     height: 300px;
 }
+
+.section4 {
+    background-color: #2374ee;
+    height: 300px;
+    padding: 20px;
+}
+
+.empty-1 {
+    background-color: #d3d5da;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.card {
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+/* reusable ends */
